@@ -1,0 +1,54 @@
+header,footer {
+    padding: 1em;
+    color: white;
+    background: rgb(62, 62, 201);
+    text-align: center;
+}
+body {
+    display: flex;
+    margin-left: auto;
+    margin-right: auto;
+    width: 90%;
+    flex-direction: column;
+    height: fit-content;
+}
+    nav {
+        background-color: beige;
+        padding: 1em;
+    }
+        .container {
+            width: 100%;
+        }
+        .wrapper > div {
+            flex: 1;
+            text-align: center;
+        }
+        article {
+            float: left;
+            width: 65%;
+            padding: 1em;
+            height: 300px;
+            background: red;
+    }
+    aside {
+        float: right;
+        width: 29%;
+        padding: 1em;
+        border-left: 1px solid grey;
+        height: 572px;
+        background: violet;
+    }
+    section {
+        float: left;
+        width: 65%;
+        height: 240px;
+        padding: 1em;
+        background: aqua;
+    
+    }
+footer {
+    padding: 1em;
+    color: white;
+    background: black;
+    text-align: center;
+}
